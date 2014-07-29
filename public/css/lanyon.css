@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .masthead {
   padding-top:    1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.875rem;
   border-bottom: 1px solid #eee;
   margin-bottom: 0;
 }
@@ -131,14 +131,27 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .menu {
-  margin-bottom: 3rem;
-  border: 1px blue solid;
+  margin-bottom: 5px;
+  background-color: #202020;
 }
 
-nav a {
-  border: 1px blue solid;
+.menu-fill {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-nav {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.menu-nav a {
   list-style-type: none;
   display: inline-block;
+  padding-right: 0.5rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: .875rem; /* 15px */
+  color: rgba(255,255,255,.6);
 }
 
 /*
