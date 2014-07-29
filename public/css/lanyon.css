@@ -96,8 +96,8 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  margin-bottom: 0;
 }
 .masthead-title {
   margin-top: 0;
@@ -123,6 +123,23 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/*
+ * Menu
+ * 
+ * Small, basic menu to replace sidebar
+ * 
+ */
+
+.menu {
+  margin-bottom: 3rem;
+  border: 1px blue solid;
+}
+
+nav a {
+  border: 1px blue solid;
+  list-style-type: none;
+  display: inline-block;
+}
 
 /*
  * Sidebar

@@ -10,8 +10,8 @@ For my current project I've been using the [scikits.audiolab](http://www.lfd.uci
 For example, to read in a file you can do:
 
 {% highlight python %}
-    from scikits.audiolab import wavread
-    data, sample_freq, encoding = wavread(path)
+from scikits.audiolab import wavread
+data, sample_freq, encoding = wavread(path)
 {% endhighlight %}
 
 Easy.
