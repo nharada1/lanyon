@@ -6,7 +6,7 @@
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
-    {% assign pages_list = site.pages %}
+    {% assign pages_list = site.pages | sort:"name" %}
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
@@ -14,7 +14,7 @@
         {% endif %}
       {% endif %}
     {% endfor %}
-  <a class="menu-nav-item" href="{{ site.portfolio }}">Portfolio</a>
-  <a class="menu-nav-item" href="{{ site.twitter }}">Twitter</a>
+  <a class="menu-nav-item" href="{{ site.author.url }}">Portfolio</a>
+  <a class="menu-nav-item" href="{{ site.author.twitter }}">Twitter</a>
   </nav>
 </div>

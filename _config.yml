@@ -9,17 +9,16 @@ permalink:        pretty
 title:            Nate Harada 
 tagline:          'Data, Design, Dendrograms, DSP'
 description:      'I&#8217m currently a grad student in Michigan&#8217s computer science program in Professor Syed&#8217s group. Formerly Tufts ECE, DSP at iZotope, software at Digital Design Corporation. '
-url:              http://blog.nateharada.com
 
 author:
   name:           'Nate Harada'
-  url:            https://twitter.com/NateHarada
+  twitter:	  http://twitter.com/NateHarada
+  url:            http://www.nateharada.com
 
 paginate:         5
 
 # Custom vars
 version:          1.0.0
 
-portfolio:	  http://www.nateharada.com
 github:
   repo:           https://github.com/nharada1
