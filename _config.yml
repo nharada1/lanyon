@@ -1,24 +1,22 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown:         kramdown
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            Nate Harada 
-tagline:          'Data, Design, Dendrograms, DSP'
+tagline:          'Data, Design, DSP'
 description:      'I&#8217m currently a grad student in Michigan&#8217s computer science program in Professor Syed&#8217s group. Formerly Tufts ECE, DSP at iZotope, software at Digital Design Corporation. '
 
 author:
   name:           'Nate Harada'
   twitter:	  http://twitter.com/NateHarada
   url:            http://www.nateharada.com
+  github:	  http://www.github.com/nharada1
 
 paginate:         5
 
 # Custom vars
 version:          1.0.0
-
-github:
-  repo:           https://github.com/nharada1
