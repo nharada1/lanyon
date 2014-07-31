@@ -1,8 +1,8 @@
---
+---
 layout: post
 title: A Look At Lollapalooza 2014
 comments: True
---
+---
 
 I was in high school when my friend and I decided to attend our first music festival. It was a rainy August day that was somehow sweltering and uncomfortable in a way only Chicago can produce. My friend and I stepped up to the ticket window outside Grant Park and ordered our three day passes at the door.
 
@@ -19,28 +19,28 @@ While the data on the website is nice, I wanted more information about each arti
 The Echonest API offers a "terms" property that returns a list of genres sorted by how strongly they correspond to an artist. For each artist I took the top two from this list. I started by looking at the top words across all artists:
 
 ### Top Words to Describe Artists:
-75: rock
-63: indie
-36: pop
-20: electronic
-17: dance
-16: alternative
-etc
+1. 75: rock
+2. 63: indie
+3. 36: pop
+4. 20: electronic
+5. 17: dance
+6. 16: alternative
+7. etc...
 
 As we can see, indie and rock are well represented at the top. However, this picture may be distorted because many genres are compounds (such as indie rock). If we switch from words to phrases we get a similar but slightly different picture. In technical terms, we have switched from a [bag of words](http://en.wikipedia.org/wiki/Bag-of-words_model) model to a [vector space model](http://en.wikipedia.org/wiki/Vector_space_model). While bag of words represents each word separately, the vector space model is more generic and allows us to represent terms as multiple words:
 
 ### Top Genres:
-33: rock
-26: indie
-23: indie rock
-21: pop
-20: electronic
-17: dance
-etc
+1. 33: rock
+2. 26: indie
+3. 23: indie rock
+4. 21: pop
+5. 20: electronic
+6. 17: dance
+7. etc...
 
 At the top, things look mostly the same. Pop is under-represented, however, owing to the large number of pop subgenres. It's hard to truly get a feel of the larger "macro genres" at the festival using either of these models. I decided to classify (by hand) each genre into one or two of seven overarching genres. I used the fantastic [RAW](http://raw.densitydesign.org/) tools to create an alluvial diagram of how each genre corresponds to its larger parent:
 
-![alluvial genre diagram](/assets/look-at-lolla/genres.png)
+![post-image-full](/assets/look-at-lolla/genres.png)
 
 In this case, the picture changes quite a bit. The multitude of different electronic genres sends the "electronic" category skyrocketing into first place. While my classification of genres obviously has significant sway on these rankings (who is to say all dance music is electronic), this view is consistent with the rise of EDM and the popularity of the DJ stage Perry's at the festival.
 
@@ -52,54 +52,55 @@ The Echonest offers two metrics of a band's popularity - [hotttnesss](http://dev
 Based on these two metrics and number of fans attending a given show, we can see the top bands in each category (bold denotes headliners):
 
 ### Top ten artists by number of fans on Lollapalooza.com
-Lorde
-**Arctic Monkeys**
-**Outkast**
-Foster The People
-**Eminem**
-**Kings of Leon**
-Cage The Elephant
-**Calvin Harris**
-Young the Giant
-GROUPLOVE
+1. Lorde
+2. **Arctic Monkeys**
+3. **Outkast**
+4. Foster The People
+5. **Eminem**
+6. **Kings of Leon**
+7. Cage The Elephant
+8. **Calvin Harris**
+9. Young the Giant
+10. GROUPLOVE
 
 ### Top ten artists by hotttnesss via Echonest
-**Calvin Harris**
-Iggy Azalea
-Lorde
-**Eminem**
-**Arctic Monkeys**
-Duke Dumont
-Vance Joy
-Martin Garrix
-Zedd
-**Skrillex**
+1. **Calvin Harris**
+2. Iggy Azalea
+3. Lorde
+4. **Eminem**
+5. **Arctic Monkeys**
+6. Duke Dumont
+7. Vance Joy
+8. Martin Garrix
+9. Zedd
+10. **Skrillex**
 
 ### Top ten artists by familiarity via Echonest
-**Eminem*
-Nas
-**Arctic Monkeys**
-**Outkast**
-**Kings of Leon**
-**Skrillex**
-**Calvin Harris**
-Interpol
-The Kooks
-AFI
+1. **Eminem**
+2. Nas
+3. **Arctic Monkeys**
+4. **Outkast**
+5. **Kings of Leon**
+6. **Skrillex**
+7. **Calvin Harris**
+8. Interpol
+9. The Kooks
+10. AFI
 
 It seems festival organizers did pretty well. There is an understandable bias towards the more familiar artists over more immediately popular ones - organizers have no way to know who will be hottest come August and the more familiar the artist the safer choice they are. One interesting observation is that Lorde is the most popular according to Lolla fans. In terms of numbers, Lorde overshadows her headliner stage-mate The Arctic Monkeys (who are also rated quite high), although admittedly not by much. I suspect this discrepancy is due to Lorde's continued radio success combined with her lack of American tour dates. Get to this stage early if you want any chance of a good seat for either band.
 
 One question I had starting this analysis was whether or not Lolla's fan base would have more esoteric (read: hipster) music tastes than the general population that Echonest is supposed to represent. I cynically believed that based on its massive popularity, Lollapalooza would in fact sway the other direction. By normalizing both fan numbers and hotttnesss (or familiarity) and plotting them against each other we can hopefully see if there is a difference.
 
-![basic hot vs fan plot](/assets/look-at-lolla/rawplot.png)
+![post-image-full](/assets/look-at-lolla/rawplot.png)
 
 Whoops. It looks like somewhere in The Echonest's calculations they compress their scale, leading to the plot above. I took the logarithm of the fans and used that instead and got a much better result.
 
-![fixed plot](/assets/look-at-lolla/rawplot_adj.png)
+![post-image-full](/assets/look-at-lolla/rawplot_adj.png)
 
 I fit a line to this data, as well as plotted one standard deviation above and below. The data points are color coded based on the (Euclidian) distance from the model, and the five largest outliers labeled.
 
-![hot vs fans](/assets/look-at-lolla/hotttnesss.png) ![fam vs fans](/assets/look-at-lolla/familiarity.png)
+![post-image-full](/assets/look-at-lolla/hotttnesss.png)
+![post-image-full](/assets/look-at-lolla/familiarity.png)
 
 In general the number of Lollapalooza fans is proportional to Echonest's estimated popularity for both hotttnesss and familiarity. Fans tend to underattend the hotter concerts but overattend the less familiar, but for the most part stay within one standard deviation of the expectation. Although it's only by a bit, we could potentially conclude that Lollapalooza is a bit more hipster than the Echonest public. 
 
