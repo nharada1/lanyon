@@ -2,6 +2,7 @@
 layout: page
 title: Archive
 comments: False
+permalink: archive/
 ---
 
 ## All Blog Posts

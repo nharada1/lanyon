@@ -2,6 +2,7 @@
 layout: post
 title: A Look At Lollapalooza 2014
 comments: True
+permalink: "/2014/07/31/a-look-at-lolla/"
 ---
 
 I was in high school when my friend and I decided to attend our first music festival. It was a rainy August day that was somehow sweltering and uncomfortable in a way only Chicago can produce. My friend and I stepped up to the ticket window outside Grant Park and ordered our three day passes at the door.

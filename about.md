@@ -2,6 +2,7 @@
 layout: page
 title: About
 comments: False
+permalink: about/
 ---
 
 I'm a graduate student in The University of Michigan's computer science program. My interests are broad, but focus on machine learning, DSP, data analysis, and visualization. I started this blog to help teach new skills and to share my work. 
