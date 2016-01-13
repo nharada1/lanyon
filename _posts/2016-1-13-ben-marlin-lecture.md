@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lecture Notes: Ben Marlin
+title: Lecture Notes -- Ben Marlin
 comments: True
 ---
 It's been a while, but yesterday I attended a great lecture by UMass' Ben Marlin. Ben works on very similar problems to my own research, and his paper on [conditional random fields for morphological analysis of wireless ECG signals](http://openscholar.cs.umass.edu/mlds/files/crf_bcb_paper.pdf) is a great example of how advances in machine learning can work to improve long standing problems in healthcare. The notes aren't perfect, but I've tried to fix them up from their raw form. I am unable to find slides, unfortunately.
