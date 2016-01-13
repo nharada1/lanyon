@@ -26,11 +26,11 @@ Then comes segmentation of some sort. This should be unsupervised and adaptive.
 
     [Slide: segmentations overlaid on raw data, segments are heterogeneous]
 
-Next is labeling these segments. This is basically state of the art, especially making \textbf{independent predictions} for each segmented datum. 
+Next is labeling these segments. This is basically state of the art, especially making **independent predictions** for each segmented datum. 
 
     [Slide: each segment has a color corresponding to a class]
 
-From these segments we want to be able to come up with \textit{activity segments} where a segment represents one action like eating a sandwich or smoking a cigarette.
+From these segments we want to be able to come up with *activity segments* where a segment represents one action like eating a sandwich or smoking a cigarette.
 
     [Slide: higher level colored segments, bigger than the individual segments]
 
