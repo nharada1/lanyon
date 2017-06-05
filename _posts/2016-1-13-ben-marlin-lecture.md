@@ -39,7 +39,7 @@ We need these things to be low: cost, power usage, noise, drift, dropout. Obviou
 
 1. Labeled data is very high cost. Not only that but there is limited ecological validity. 
 2. Self reporting results in lack of temporal precision and low accuracy
-3. The “n=me” problem. Big data doesn’t really solve problems in this space because people are so different. \textbf{With low data volumes, everyone looks different.} Then end up with covariate shift or transfer learning problems.
+3. The “n=me” problem. Big data doesn’t really solve problems in this space because people are so different. **With low data volumes, everyone looks different.** Then end up with covariate shift or transfer learning problems.
 4. For black boxes the need to infer meaningful model results in medicine is difficult. Model distillation is needed for something like deep learning. Doctors and patients don’t trust a black box.
 5. All of this needs to be real time! Model compression is coming back for something like this.
 
