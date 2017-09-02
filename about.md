@@ -4,9 +4,6 @@ title: About
 comments: False
 permalink: about/
 ---
+I'm currently a researcher for Fitbit's R&D team. My interests lie at the intersection of machine learning and the real world: I most enjoy work on problems related to images, sensor data, audio, or other physical data. I believe that as computation and sensors are further woven into the fabric of our lives, we need smarter interaction models to help us make sense of it all.
 
-I'm a graduate student in The University of Michigan's computer science program. My interests are broad, but focus on machine learning, DSP, data analysis, and visualization. I started this blog to help teach new skills and to share my work. 
-
-Before Michigan I received my undergraduate in electrical engineering at Tufts University, where my work focused on signal processing in both medical and musical applications. During school I worked at [iZotope](http://www.izotope.com) doing audio DSP and [Digital Design Corporation](http://www.digidescorp.com) building software.
-
-Outside school I play ultimate frisbee, [make music](http://www.soundcloud.com/kenji-music), and go [exploring](http://i.imgur.com/ihnlo6h.jpg). If you find my blog interesting or helpful, [follow me on twitter](http://http://www.twitter.com/NateHarada).
+In grad school I worked for [Zeeshan Syed](http://web.eecs.umich.edu/~zhs/), investigating how we can improve patient outcomes based on medical sensor data. Before Michigan I received my undergraduate in electrical engineering at Tufts University, where my work focused on signal processing in both medical and musical applications. During school I worked at [iZotope](http://www.izotope.com) doing audio DSP and [Digital Design Corporation](http://www.digidescorp.com) building software.
