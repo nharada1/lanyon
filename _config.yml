@@ -12,9 +12,10 @@ description:      'I&#8217m currently a researcher for Fitbit. Formerly at Michi
 
 author:
   name:           'Nate Harada'
-  twitter:	  http://twitter.com/NateHarada
+  twitter:	      http://twitter.com/NateHarada
   url:            http://www.nateharada.com
-  github:	  http://www.github.com/nharada1
+  github:	        http://www.github.com/nharada1
+  resume:         http://www.nateharada.com/resume.pdf
 
 paginate:         5
 
