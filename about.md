@@ -9,4 +9,4 @@ I'm Nate, currently working with the computer vision team at [Cruise Automation]
 
 My interests lie at the intersection of machine learning and the real world: I most enjoy work on problems related to images, sensor data, audio, or other physical data. I believe that as computation and sensors are further woven into the fabric of our lives, we need smarter interaction models to help us make sense of it all.
 
-If you need help figuring out machine learning in real life, I'm [happy to chat](contact@sente.solutions). I <3 pro bono work with non-profits -- if you have a good cause that needs proven ML expertise and experience, especially anything related to solving the climate crisis, I'd love to chat.
+If you need help figuring out machine learning in real life, I'm [happy to chat](contact@sente.solutions). I ❤️ pro bono work with non-profits -- if you have a good cause that needs proven ML expertise and experience, especially anything related to solving the climate crisis, I'd love to chat.
