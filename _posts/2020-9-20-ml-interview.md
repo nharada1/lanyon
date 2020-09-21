@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The ML Design Interview 
+title: Tackling the ML Design Interview 
 comments: True
 ---
 *Disclaimer: This article is how I advise personal friends to prepare for ML interviews. There is nothing in here specific to my current company, and you shouldn't assume any advice here is endorsed or supported by them.*
