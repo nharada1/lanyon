@@ -48,6 +48,12 @@ The most important thing to remember when being asked to design a system is that
     * How do we baseline our performance?
 
 #### Stage 3: The Model
+* Features (especially if not deep learning)
+    * As a human, how would I solve the problem? Can those be translated to features?
+    * Can I use existing feature extraction methods (e.g. Word2Vec) or do I need to create custom ones?
+    * What things would make this problem trivial if I knew them?
+    * How expensive are these features to create?
+    * Can I share features with other models?
 * Model Architecture
     * What kind of input representations might make sense?
     * What is our target output and loss function?
@@ -68,6 +74,7 @@ The most important thing to remember when being asked to design a system is that
     * What are the deployment constraints -- latency? memory? compute?
     * Does this model need specialized hardware (e.g. GPU)?
     * What happens if we need to scale up more than expected?
+    * What things can I cache to improve performance?
     * Do we need to refresh the data? How often?
     * What conditions might require a data refresh sooner than expected?
 * Monitoring
