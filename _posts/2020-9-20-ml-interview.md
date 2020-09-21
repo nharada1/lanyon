@@ -6,7 +6,7 @@ comments: True
 *Disclaimer: This article is how I advise personal friends to prepare for ML interviews. There is nothing in here specific to my current company, and you shouldn't assume any advice here is endorsed or supported by them.*
 
 ### A Practical Approach to Solving an ML Design Problem
-Design problems can be scary parts of an interview, especially for early career engineers who are familiar with coding questions and may have not experienced a design interview. I advise anyone tackling an open ended ML problem to take a **structured approach** -- and this means both in their jobs and during a design interview. The approach here is a bit biased towards my particular domain of ML, which is deep learning heavy and often runs on robots or custom hardware, but most of this applies no matter what you're working on.
+Design problems can be scary parts of an interview, especially for early career engineers who are familiar with coding questions and may have not experienced such vague question. I advise anyone tackling an open ended ML problem to take a **structured approach** -- and this means both in their jobs and during a design interview. The approach here is a bit biased towards my particular domain of ML, which is deep learning heavy and often runs on robots or custom hardware, but most of this applies no matter what you're working on.
 
 ### Design a system
 
