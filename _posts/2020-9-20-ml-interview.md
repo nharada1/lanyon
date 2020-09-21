@@ -13,7 +13,7 @@ Design problems can be scary parts of an interview, especially for early career 
 The most important thing to remember when being asked to design a system is that **you do not have enough information**. If your boss asked you to design Facebook's news recommendation system you wouldn't go off and build it without clearing up a *lot* of details. Similarly, a design interview should be a conversation with the interviewer.
 
 ### A structured approach
-**Prompt:** Design a system to detect if a person is angry.
+**Prompt:** Design a system to detect if a person is frowning.
 
 #### Stage 1: Understand the problem
 * What is the use case?
