@@ -7,7 +7,9 @@ permalink: about/
 
 ![me](/assets/about/me.jpg){: style="float: left; margin: 15px 20px 0 0"}
 
-I'm Nate, currently working with the perception team at [Waymo](http://waymo.com) to develop self-driving vehicles. I used to work at [Cruise](http://getcruise.com), where I built systems to detect objects, respond to emergency vehicles, and track things over time. I also worked at Fitbit in the R&D department, where I researched how we can apply advanced AI to sensors and health data to make people healthier. In grad school I worked in [Zeeshan Syed's lab](https://healthatscale.com/leadership/), investigating how deep learning can improve our understanding of heart diseases such as atrial fibrillation.
+I'm Nate, one of the co-founders of [Taro AI](https://taroai.com/) where I'm building smart surveying and mapping tools for arborists.
+
+I previously worked with the perception and research teams at [Waymo](http://waymo.com) to develop self-driving vehicles. I used to work at [Cruise](http://getcruise.com), where I built systems to detect objects, respond to emergency vehicles, and track things over time. I also worked at Fitbit in the R&D department, where I researched how we can apply advanced AI to sensors and health data to make people healthier. In grad school I worked in [Zeeshan Syed's lab](https://healthatscale.com/leadership/), investigating how deep learning can improve our understanding of heart diseases such as atrial fibrillation.
 
 I also am the creator and maintainer of the open source tool [Moonshine](https://moonshineai.readthedocs.io/en/latest/), downloadable pre-trained ML models for remote sensing and satellite data. It's my hope that by reducing labeling costs via pre-training, climate researchers and policy makers can better do their jobs.
 
