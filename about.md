@@ -9,6 +9,8 @@ permalink: about/
 
 I'm Nate, and I can't share quite yet where I work :)
 
+Most recently I was the co-founder and CTO of Taro AI, where we built software for arborists to monitor and improve tree health in our cities.
+
 I used to work at [Waymo](http://waymo.com) and [Cruise](https://getcruise.com/) where I spent 7 years building the perception systems for the first self-driving cars. I also worked at Fitbit in the R&D department, where I researched how we can apply advanced AI to sensors and health data to make people healthier. In grad school I worked in [Zeeshan Syed's lab](https://healthatscale.com/leadership/), investigating how deep learning can improve our understanding of heart diseases such as atrial fibrillation.
 
 I also am the creator and maintainer of the open source tool [Moonshine](https://moonshineai.readthedocs.io/en/latest/), downloadable pre-trained ML models for remote sensing and satellite data. It's my hope that by reducing labeling costs via pre-training, climate researchers and policy makers can better do their jobs.
